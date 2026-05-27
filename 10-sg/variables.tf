@@ -18,8 +18,8 @@ variable "sg_names" {
         "bastion",
         # frontend load balancer
         "frontend_alb",
-        # # Backend ALB
-        # "backend_alb",
+        # Backend ALB
+        "backend_alb",
         # "open_vpn"
     ]
 }
