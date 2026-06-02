@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "86sd-remote-state-dev"
+    bucket = "86sd-remote-state-file-dev"
     key    = "roboshop-dev-sg"
     region = "us-east-1"
     use_lockfile = true
