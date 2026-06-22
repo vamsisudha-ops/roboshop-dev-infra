@@ -6,10 +6,10 @@ variable "environment" {
     default = "dev"
 }
 
-# variable "zone_id" {
-#     default = "Z045918523UHFS3WTXGUZ"
-# }
+variable "zone_id" {
+    default = "Z045918523UHFS3WTXGUZ"
+}
 
-# variable "domain_name" {
-#     default = "daws86sd.fun"
-# }
+variable "domain_name" {
+    default = "daws86sd.fun"
+}
